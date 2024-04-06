@@ -18,6 +18,7 @@ The following **optional** features are implemented:
 
 - [x] The site's customized dashboard contains more content that explains what is interesting about the data.
 - [x] The site allows users to toggle between different data visualizations.
+
 The following **additional** features are implemented:
 
 * [x] The dashboard displays a summary of weather data for each city and allows detailed exploration.

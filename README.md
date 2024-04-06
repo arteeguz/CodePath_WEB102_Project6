@@ -1,44 +1,39 @@
-# Web Development Project 5 - Weather Dashboard
+# Web Development Project 6 - Weather Dashboard
 
 Submitted by: **Artem Guz**
 
-This web app provides a dynamic weather dashboard that fetches and displays weather data from the Weatherbit API. Users can view weather details of multiple cities, search for specific cities, and see summary statistics about the displayed weather data.
+This web app provides a dynamic and interactive weather dashboard that displays current weather conditions across multiple cities. Users can click on a city to view detailed weather statistics and visualizations over the upcoming days, offering insights into weather trends.
 
-Time spent: **9** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The list displays a list of data fetched using an API call**
-- [x] **Data uses the useEffect React hook and async/await syntax**
-- [x] **The app dashboard includes at least three summary statistics about the data such as**
-  - [x] Total number of displayed cities
-  - [x] Average temperature of displayed cities
-- [x] **A search bar allows the user to search for an item in the fetched data**
-- [x] **Multiple different filters allow the user to filter items in the database by specified categories** (Note: Implement if you added specific filters beyond search)
+- [x] **The app includes at least one unique chart developed using the fetched data that tells an interesting story** - Implemented a detailed view for each city showing temperature trends using a line chart or bar chart.
+- [x] **Clicking on an item in the list view displays more details about it** - Users can click on a city to see detailed weather statistics and a forecast chart.
+- [x] **Clicking on an item has a direct, unique link to that item's detail view page** - Each city's detailed weather view is accessible via a unique URL.
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types such as a text input, a selection, or a slider
-- [ ] The user can enter specific bounds for filter values
-
+- [x] The site's customized dashboard contains more content that explains what is interesting about the data.
+- [x] The site allows users to toggle between different data visualizations.
 The following **additional** features are implemented:
 
-* [x] Used environment variables to hide the API key.
+* [x] The dashboard displays a summary of weather data for each city and allows detailed exploration.
+* [x] Users can switch between line and bar charts in the detailed city view.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-![Project5-gif](https://github.com/arteeguz/CodePath_WEB102_Project5/assets/118378371/e557470d-d476-4283-ab6c-da1667c8e520)
+![Project6_gif](https://github.com/arteeguz/CodePath_WEB102_Project6/assets/118378371/ed9fc911-b55a-4a44-8208-58023509caff)
 
 GIF created with OBS
 
 ## Notes
 
-A challenge I faced was handling the asynchronous fetching of weather data for multiple cities. We needed to ensure that all data was loaded efficiently and updated the state correctly for rendering, emphasizing the importance of managing asynchronous operations and state in React.
+Encountered challenges with API data fetching and integrating dynamic chart visualizations. Resolved issues related to environment variable management with Vite and React Router for detailed city views.
 
 ## License
 
